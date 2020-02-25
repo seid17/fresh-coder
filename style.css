@@ -1,0 +1,109 @@
+body{
+ background: 
+      linear-gradient(
+          rgba(0, 0, 0, 0.8), 
+          rgba(0, 0, 0, 0.8)
+      )
+      ,url(https://image.freepik.com/foto-gratis/estudiante-sentado-sala-informatica-usando-auriculares_13339-220275.jpg);
+  background-size: cover;
+}
+#h1{
+  text-align: center;
+  font-size: 50px;
+  font-family: Arial;
+  color: white;
+  font-weight: 900;
+}
+
+@media (max-width: 600px){
+  #h1{
+    font-size: 40px;
+    font-weight: bold;
+  }
+}
+#wrap{
+   
+  display: grid;
+  justify-content: center;
+  
+}
+
+#form{
+  font-family: Arial;
+  font-size: 20px;
+  border: solid white 3px;
+  border-radius: 70px;
+  width: 600px;
+  padding: 5px;
+  background: rgb(0,212,255);
+background: rgb(8,244,233);
+background: linear-gradient(0deg, rgba(8,244,233,1) 0%, rgba(6,194,184,1) 100%);
+}
+@media (max-width: 600px) {
+  #form {
+    width: 95%;
+    border-radius: 40px;
+  }
+}
+
+.inputs{
+  background-color: #035955;
+  width: 470px;
+  height: 30px;
+  padding: 8px;
+  margin-left: 45px;
+  border-radius: 8px;
+  border: black;
+}
+@media (max-width: 600px) {
+  .inputs {
+    width: 250px;
+    margin-left: 10px;
+  }
+}
+#text{
+  background-color: #035955;
+  width: 470px;
+  height: 80px;
+  padding: 8px;
+  margin-left: 45px;
+  border-radius: 8px;
+  border: black;
+}
+@media (max-width: 600px) {
+  #text{
+    width: 250px;
+    margin-left: 10px;
+  }
+}
+#ptags{
+  margin-left: 45px;
+  font-size: 25px;
+  font-weight: 900;
+  color: #222b2b;
+}
+@media (max-width: 600px){
+  #ptags{
+    margin-left: 10px;
+  }
+}
+
+#checksandboxes{
+  margin-left: 45px;
+  margin-bottom: 15px;
+  
+}
+
+#sbutton{
+  background-color: #035955;
+  color: white;
+  display: block; 
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 7px;
+  height: 40px;
+  width: 150px;
+  border-radius: 20px;
+  border: black;
+  font-weight: bold;
+}

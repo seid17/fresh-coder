@@ -1,0 +1,38 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+::placeholder {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(240, 240, 240);
+  font-style: italic;
+  </style>
+  <title>Survey form</title>
+  </head>
+<body>
+  <h1 id="h1">Survey Form Template</h1>
+ <div id="wrap">
+   
+   <form name="ReForm" id="form">
+     <p id="ptags">Name</p>
+     <input type="text" name="Name" placeholder="Enter your name..." class="inputs">
+     <p id="ptags">Email adress</p>
+     <input type="text" id="email" placeholder="Enter your e mail adress..." class="inputs">
+     <p id="ptags">Occupation</p>
+     <input type="text" placeholder="Enter your curent occupation..." class="inputs">
+      <p id="ptags">Choose courses</p>
+     <input type="checkbox" id="checksandboxes" name="geography" value="geo"> Geography<br>
+  <input type="checkbox" id="checksandboxes" name="biology" value="bio"> Biology<br>
+  <input type="checkbox" id="checksandboxes" name="literature" value="ltr"> Literature<br>
+     <p id="ptags">Choose your study method</p>
+     <input type="radio" id="checksandboxes" name="gender" value="online"> Online Learning<br>
+<input type="radio" id="checksandboxes" name="gender" value="school"> School style<br>
+     <input type="radio" id="checksandboxes" name="gender" value="male"> Personal teacher<br>
+     <p id="ptags">Your opinion</p>
+     <input type="textarea" placeholder="Tell us more about your views..." id="text">
+     <input type="submit" id="sbutton" value="SUBMIT">
+   </form>
+   </div>
+  </body>
+</html>
